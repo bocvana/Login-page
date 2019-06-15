@@ -1,0 +1,195 @@
+body {
+  background-color: #DCDCDC;
+}
+header {
+  width: 100%;
+  position: relative;
+}
+.clearfix {
+  content: "";
+  clear: both;
+  display: table;
+}
+.tooltip {
+  width: 35%;
+  padding: 21px 0;
+  display: block;
+  margin: 22px auto;
+  text-align: center;
+  border-radius: 4px;
+  background-color: #7FA08A;
+  color: #fff;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+}
+.recentagle {
+  width: 85px;
+  height: 35px;
+  position: absolute;
+  top: 0;
+  right: 80px;
+  background-color: #B7B7B7;
+  border-radius: 30px;
+}
+.recentagle p {
+  position: absolute;
+  top: 0;
+  left: 34px;
+  font-size: 10px;
+  font-family: 'Open Sans', sans-serif;
+  color: #3b3b3b;
+}
+.vector {
+  position: absolute;
+  top: 11px;
+  left: 19px;
+}
+.vector1 {
+  position: absolute;
+  top: 15px;
+  left: 17px;
+}
+.vector2 {
+  position: absolute;
+  top: 8px;
+  left: 13px;
+}
+.login-container {
+  width: 860px;
+  height: 560px;
+  background-color: #fff;
+  margin: 140px auto 40px;
+  box-shadow: 0px 12px 48px rgba(0, 0, 0, 0.1);
+  font-family: 'Open Sans', sans-serif;
+  color: #112A38;
+}
+.field-container {
+  width: 62%;
+  height: 100%;
+  float: left;
+}
+.image-container {
+  width: 38%;
+  height: 100%;
+  float: right;
+  display: inline-table;
+  background: url(img/image.jpg);
+  background-size: 390%;
+  background-position: -540px -289px;
+  background-repeat: no-repeat;
+}
+.title {
+  width: 80%;
+  margin: 80px auto 0;
+  font-size: 18px;
+  font-weight: normal;
+}
+.title:nth-child(2) {
+  margin-top: 20px;
+}
+.field-container h3 {
+  font-size: 26px;
+}
+.form {
+  width: 80%;
+  margin: 20px auto;
+  font-size: 12px;
+}
+.form .label-checkbox {
+  max-width: 130px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.field-container input {
+  width: 85%;
+  height: 32px;
+  display: block;
+  margin: 5px 0 30px 0;
+}
+.btn-form {
+  width: 30%;
+  padding: 10px 0 10px;
+  border: 0;
+  background: #fe5f75;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+}
+#check-box {
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  margin: 0 0 0 23%;
+  vertical-align: middle;
+}
+.forgot-pass {
+  width: 35%;
+  margin-top: 20px;
+  text-align: initial;
+  background: #fff;
+  font-size: 12px;
+  color: #858585;
+}
+.logo {
+  text-align: center;
+  padding: 30px 0;
+}
+.logo-img {
+  display: inline-block;
+  vertical-align: middle;
+}
+ @media only screen and (max-width: 500px) {
+  .tooltip {
+    display: none;
+  }
+  .recentagle {
+    top: 10px;
+    right: 10px;
+    opacity: 0.6;
+  }
+  .login-container {
+    width: 100%;
+    margin: 0;
+  }
+  .image-container {
+    width: 100%;
+    height: 160px;
+    float: none;
+    background-size: 100%;
+    -moz-background-size: 100%;
+    background-position: 0px -150px;
+  }
+  .field-container {
+    width: 100%;
+    float: none;
+  }
+  .form input {
+    margin-top: 11px;
+  }
+  .forgot-pass {
+    width: 100%;
+  }
+} 
+@media only screen and (max-width: 360px) {
+  .image-container {
+    background-size: 130%;
+    background-position: -90px -140px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .image-container {
+    background-position: 0px -40px;
+  }
+  .field-container .form {
+    font-size: 11px;
+  }
+  .forgot-pass {
+    font-size: 11px;
+  }
+  #check-box {
+    width: 14px;
+    height: 14px;
+    margin-left: 20px;
+  }
+}
